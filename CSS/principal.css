@@ -1,0 +1,133 @@
+/* body {
+    margin: 0;
+    padding: 0;
+
+    & .navegacion {
+        position: fixed;
+        top: 0;
+        background-color: #2d4050;
+        color: rgb(0, 0, 0);
+        width: 40%;
+        height: 100%;
+    
+        & .navBar {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+    
+                & .logo {
+                    margin-top: 1rem;
+                    max-width: 100%;
+                    height: 5rem;
+                    display: inline-block;
+                    justify-content: center;
+                    background-color: aquamarine;
+                    overflow: hidden;
+                    border-radius: 50%;
+        
+                    & #logo {
+                        width: auto;
+                        height: 100%;
+                        margin-left: -50px;
+                    }
+                }
+            
+                & h3 {
+                    margin: 1rem 0 2rem;
+                }
+    
+            & ul {
+                padding: 0;
+    
+                & li {
+                    list-style: none;
+                    padding-bottom: 1rem;
+
+                    &li:hover{
+                        background-color: aqua;
+                    }
+    
+                    & a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    & .container{
+        width: 60%;
+        height: 20%;
+        background-color: #1371be;
+        margin-left: 150px;
+    }
+
+    @media (min-width: 768px) { 
+        .navegacion {
+            position: fixed;
+            top: 0;
+            background-color: #2d4050;
+            color: rgb(0, 0, 0);
+            width: 20%;
+            height: 100%
+
+    }
+    .container{
+            width: 80%;
+            height: 20%;
+            background-color: #1371be;
+            margin-left: 270px;
+        }
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 90% !important;
+    height: auto;
+    background-color: #013661;
+    margin: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+
+
+    & .contenedor {
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    & .alumno {
+        background-color: rgb(97, 248, 97);
+    }
+
+    & .docente {
+        background-color: rgb(245, 101, 101);
+    }
+
+    & .asignatura {
+        background-color: rgb(138, 255, 255);
+    }
+
+    @media (min-width: 600px) { 
+        .container_grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+}
+
+
+
+
+
