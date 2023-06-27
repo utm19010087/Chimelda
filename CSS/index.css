@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    & body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+        & h2 {
+            font-family: 'Lobster', cursive;
+            font-weight: bold;
+            font-size: 50px;
+            padding: 1rem;
+            text-align: center;
+        }
+/*----------------------
+    Header
+----------------------*/
+
+        & .head {
+            width: 100%;
+            height: 600px;
+            background: #ff3333;
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, hsl(0, 0%, 0%), hsla(0, 2%, 12%, 0.733), #292828), url(../IMG/F2.jpg);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+
+            & .navBar {
+                text-align: right;
+                padding: 30px 50px 0 0;
+
+                & a {
+                    color: white;
+                    font-weight: 300;
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+
+                & a:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            & #Inicio .textos-header {
+                display: flex;
+                height: 430px;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 1rem;
+
+                & h1 {
+                    font-size: 50px;
+                    color: white;
+                }
+
+                & h2 {
+                    font-size: 30px;
+                    font-weight: 300;
+                    color: white;
+                }
+            }
+        }
+/*----------------------
+    Main
+----------------------*/
+        & .contenedor {
+            max-width: 100%;
+            height: auto;
+            padding: 1rem;
+            margin-top: 1rem;
+
+            & .about {
+                text-align: center;
+                padding: 1rem;
+
+                & p {
+                    font-family: 'Arial', cursive;
+                    font-size: 20px;
+                }
+            }
+
+            & #carousel {
+                background-image: url(../IMG/carreras/Tics.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                max-width: 100%;
+                height: 300px;
+            }
+
+            @media (min-width: 768px) {
+                #carousel {
+                    width: auto !important;
+                    height: 500px;
+                }
+            }
+
+            & .carreras {
+                width: 100%;
+                height: auto;
+
+                & h3 {
+                    font-family: 'Lobster', cursive;
+                    font-size: 1.6rem;
+                    text-align: center;
+                }
+
+                & .carreras__cards {
+                    width: 100%;
+                    height: auto;
+
+                    & .carreras__cards__img {
+                        width: 100%;
+                        height: auto;
+
+                        & .carreras__cards__img--im {
+                            width: 95%;
+                            max-height: 400px;
+                            padding-top: 1rem;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+
+                    & .carreras__card__txt {
+                        text-align: center;
+                        padding: 1rem;
+                    }
+                }
+            }
+
+            @media (min-width: 768px) { 
+                .carreras__grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                }
+                
+                & .carreras__cards__img--im {
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
