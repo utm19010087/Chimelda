@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta title="Pagina de docentes">
+    <meta title="Pagina de alumnos">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -74,13 +74,13 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                         <li>
-                            <a class="dropdown-item" href="index.html">My profile</a>
+                            <a class="dropdown-item" href="index.php">My profile</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#">Settings</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="index.html">Logout</a>
+                            <a class="dropdown-item" href="index.php">Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -92,8 +92,9 @@
     <!-- Navbar -->
 
     <center>
-        <h2>Docentes</h2>
+        <h2>Alumnos</h2>
     </center>
+
     <table class="table">
         <thead>
             <tr>
@@ -101,23 +102,25 @@
                 <th>Matricula</th>
                 <th>Nombres</th>
                 <th>Apellidos</th>
-                <th>Especializacion</th>
-                <th>Asignatura</th>
+                <th>Carrera</th>
                 <th>Situacion</th>
+                <th>Calificaciones</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><img src="/IMG/F1.jpg" width="100px" height="100px"></td>
-                <td>b</td>
-                <td>c</td>
-                <td>d</td>
-                <td>e</td>
-                <td>f</td>
+                <td>LES897689</td>
+                <td>Goku</td>
+                <td>Son</td>
+                <td>Ingenieria Quimica</td>
+                <td>Regular</td>
                 <td>boton</td>
             </tr>
         </tbody>
     </table>
+
+
 
     <footer class="footer">
         <div class="cont">
@@ -147,7 +150,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ingresar Docente</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Ingresar Alumno</h5>
                     <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">

@@ -1,0 +1,135 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="../CSS/index.css">
+        <link rel="stylesheet" href="/CSS/footer.css">
+        <title>SchooLalo</title>
+    </head>
+    
+    <body>
+    
+        <header class="head">
+            <nav class="navBar">
+                <a href="#Inicio">Inicio</a>
+                <a href="#About">Acerca de</a>
+                <a href="principal.php">Servicios</a>
+                <a href="login.php">Login</a>
+            </nav>
+            <section id="Inicio">
+                <section class="textos-header">
+                    <h1>LA UNIVERSIDAD DE LALO</h1>
+                    <h2>Buena, Bonita y Barata</h2>
+                </section>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 81%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #000000a2;"></path>
+                </svg></div>
+        </header>
+    
+        <main class="contenedor">
+            <section class="about">
+                <h2>¿Quienes Somos?</h2>
+                <p>La Universidad de Lalo es una institución de educación superior comprometida con la excelencia académica
+                    y
+                    la formación integral de sus estudiantes. Ofrece una amplia gama de programas de estudio y cuenta con un
+                    cuerpo docente altamente capacitado para brindar una educación de calidad.</p>
+            </section>
+    
+            <div id="carousel"></div>
+    
+            <h2>Carreras</h2>
+            <div class="carreras__grid">
+                <section class="carreras">
+                    <div class="carreras__cards">
+                        <div class="carreras__cards__img">
+                            <img class="carreras__cards__img--im" src="../IMG/carreras/Tics.jpeg" alt="Imagen 1">
+                        </div>
+                        <div class="carreras__card__txt">
+                            <h3>TIC's</h3>
+                            <p>Desarrolla software, protege la información y domina el análisis de datos.</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="carreras">
+                    <div class="carreras__cards">
+                        <div class="carreras__cards__img">
+                            <img class="carreras__cards__img--im" src="../IMG/carreras/Nanotecnologia.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="carreras__card__txt">
+                            <h3>Nanotecnologia</h3>
+                            <p>Manipula la materia a nivel nanométrico y abre nuevas posibilidades en medicina, electrónica
+                                y energía.</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="carreras">
+                    <div class="carreras__cards">
+                        <div class="carreras__cards__img">
+                            <img class="carreras__cards__img--im" src="../IMG/carreras/Mecatronica.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="carreras__card__txt">
+                            <h3>Mecatronica</h3>
+                            <p>Combina mecánica, electrónica y control para crear sistemas automatizados y robóticos
+                                avanzados.</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="carreras">
+                    <div class="carreras__cards">
+                        <div class="carreras__cards__img">
+                            <img class="carreras__cards__img--im" src="../IMG/carreras/Negocios.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="carreras__card__txt">
+                            <h3>Negocios Internacionales</h3>
+                            <p>Aprende estrategias internacionales y adquiere habilidades de gestión para triunfar en el
+                                mundo empresarial.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    
+        <footer class="footer">
+            <div class="cont">
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <img [src]="LogoLalo" alt="Logo">
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="footer__social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer__social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer__social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="footer__social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="footer__social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer__info">
+                    <p>&copy; 2023 La Universidad de Lalo. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="../JS/carousel.js"></script>
+    </body>
+    
+    </html>

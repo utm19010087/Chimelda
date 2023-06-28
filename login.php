@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="inf">
-                <a href="principal.html">Regresar</a>
+                <a href="principal.php">Regresar</a>
             </div>
         </div>
     </div>

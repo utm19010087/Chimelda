@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/carrera.css">
+    <meta title="Pagina principal">
+    <link rel="stylesheet" href="/CSS/principal.css">
     <link rel="stylesheet" href="/CSS/footer.css">
-    <link rel="stylesheet" href="/CSS/tablas.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -39,19 +39,19 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="alumnos.html">Alumno</a>
+                        <a class="nav-link" href="alumnos.php">Alumno</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="docentes.html">Docentes</a>
+                        <a class="nav-link" href="docentes.php">Docentes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="carreras.html">Carreras</a>
+                        <a class="nav-link" href="carreras.php">Carreras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="asignaturas.html">Asignaturas</a>
+                        <a class="nav-link" href="asignaturas.php">Asignaturas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="horarios.html">Horarios</a>
+                        <a class="nav-link" href="horarios.php">Horarios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Aulas</a>
@@ -63,7 +63,7 @@
 
             <!-- Right elements -->
             <div class="d-flex align-items-center">
-
+                
                 <!-- Avatar -->
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
@@ -73,13 +73,13 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                         <li>
-                            <a class="dropdown-item" href="index.html">My profile</a>
+                            <a class="dropdown-item" href="index.php">My profile</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#">Settings</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="index.html">Logout</a>
+                            <a class="dropdown-item" href="index.php">Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -90,59 +90,50 @@
     </nav>
     <!-- Navbar -->
 
-    <main class="contenenedor">
-        <form action="">
-            <legend>Registrar Carrera</legend>
+    <h1 style="text-align: center;">Bienvenido seas, empleado de Lalo</h1>
+    <main class="container">
+        <div class="container_grid">
+            <section class="contenedor alumno">
+                <a href="alumnos.html"><img class="icon-img" src="/IMG/Icons/Estudiante.png" alt="Estudiante"></a>
+                <div class="contenedor_alumno">
+                    <h4>Administrar Alumnos</h4>
+                </div>
+            </section>
 
-            <div class="contenedor__grid">
-                    <div class="campo">
-                        <label for="carrera">Nombre</label>
-                        <input type="text" name="carrera" id="carrera">
-                    </div>
-    
-                    <div class="campo">
-                        <label for="grado">Grado</label>
-                        <input type="text" name="grado" id="grado">
-                    </div>
-    
-                    <div class="campo">
-                        <label for="grupo">Grupo</label>
-                        <input type="text" name="grupo" id="grupo">
-                    </div>
-    
-                    <div class="campo">
-                        <button class="btn" type="submit">Añadir</button>
-                    </div>
-            </div>
-        </form>
+            <section class="contenedor docente">
+                <a href="docentes.html"><img class="icon-img" src="/IMG/Icons/Profesor.png" alt="Docentes"></a>
+                <div class="contenedor_docente">
+                    <h4>Administrar Docentes</h4>
+                </div>
+            </section>
 
-        <center>
-            <h2>Docentes</h2>
-        </center>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Foto</th>
-                    <th>Matricula</th>
-                    <th>Nombres</th>
-                    <th>Apellidos</th>
-                    <th>Especializacion</th>
-                    <th>Asignatura</th>
-                    <th>Situacion</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><img src="/IMG/F1.jpg" width="100px" height="100px"></td>
-                    <td>b</td>
-                    <td>c</td>
-                    <td>d</td>
-                    <td>e</td>
-                    <td>f</td>
-                    <td>boton</td>
-                </tr>
-            </tbody>
-        </table>
+            <section class="contenedor carrera">
+                <a href="carreras.html"><img class="icon-img" src="/IMG/Icons/Carreras.png" alt="Carreras"></a>
+                <div class="contenedor_carrera">
+                    <h4>Administrar Carreras</h4>
+                </div>
+            </section>
+    
+            <section class="contenedor asignatura">
+                <a href="materias.html"><img class="icon-img" src="/IMG/Icons/Materias.png" alt="Materias"></a>
+                <div class="contenedor_asignatura">
+                    <h4>Registrar Materias</h4>
+            </section>
+
+            <section class="contenedor horario">
+                <a href="horarios.html"><img class="icon-img" src="/IMG/Icons/Horario.png" alt="Horario"></a>
+                <div class="contenedor_horario">
+                    <h4>Horarios</h4>
+                </div>
+            </section>
+
+            <section class="contenedor aulas">
+                <a href="#"><img class="icon-img" src="/IMG/Icons/Aula.png" alt="Horario"></a>
+                <div class="contenedor_aulas">
+                    <h4>Aulas</h4>
+                </div>
+            </section>
+        </div>
     </main>
 
 
@@ -168,6 +159,9 @@
         </div>
     </footer>
 
+    <script src="/JS/principal.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
 </body>
 
 </html>
