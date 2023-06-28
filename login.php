@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta title="Pagina de control escolar de Lalo">
-    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="stylesheet" href="CSS/login.css">
     <title>Login</title>
 </head>
 <body>
