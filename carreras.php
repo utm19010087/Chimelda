@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/carrera.css">
-    <link rel="stylesheet" href="/CSS/footer.css">
-    <link rel="stylesheet" href="/CSS/tablas.css">
+    <link rel="stylesheet" href="CSS/carrera.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/tablas.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -133,7 +133,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><img src="/IMG/F1.jpg" width="100px" height="100px"></td>
+                    <td><img src="IMG/F1.jpg" width="100px" height="100px"></td>
                     <td>b</td>
                     <td>c</td>
                     <td>d</td>
