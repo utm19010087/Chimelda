@@ -3,7 +3,7 @@ var current = 0;
 
 function cambio() {
     let car = document.getElementById('carousel');
-    car.style.backgroundImage = "url('/IMG/" + links[current] + "')";
+    car.style.backgroundImage = "url('IMG/" + links[current] + "')";
     current++;
     if (current >= links.length) {
         current = 0;

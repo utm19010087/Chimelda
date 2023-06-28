@@ -10,6 +10,6 @@ if(mysqli_connect_errno())
     die("Puto lalo: " + mysqli_connect_errno )
     exit();
 }
-echo "Te amno lalo";
+echo "Te amo lalo";
 
 ?>
